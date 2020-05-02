@@ -7,7 +7,7 @@ Project to learn how to get multiple services deployed to AWS EKS on different p
 It's easy enough to get two separate external addresses for the APIs exposed in an EKS
 cluster. What I really want to do is expose the services on a single endpoint using the
 request paths as the determination for which internal service to call. Basically I want
-the end result to response to the following URLs (more information on the curls used to
+the end result to respond to the following URLs (more information on the curls used to
 test the public endpoints below):
 
   1. `http://<AWS_ASSIGNED_IP_ID123>/service1` pointing to **sample-app1-service**
