@@ -24,15 +24,11 @@ spec:
   rules:
   - http:
       paths:
-      - path: "/*"
-        backend:
-          serviceName: test-ingress
-          servicePort: 80
       - path: /service1
         backend:
-          serviceName: my-service-1
+          serviceName: sample-app1-service
           servicePort: 80
       - path: /service2
         backend:
-          serviceName: my-service-2
+          serviceName: sample-app2-service
           servicePort: 80
