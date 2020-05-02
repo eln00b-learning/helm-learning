@@ -1,0 +1,8 @@
+---
+
+Deployment completed.
+
+Chart: {{ .Chart.Name }} v{{ .Chart.Version }}
+App: v{{ .Chart.AppVersion }}
+
+---

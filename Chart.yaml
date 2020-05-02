@@ -1,0 +1,9 @@
+apiVersion: v2
+name: helm-learning
+description: Trying to get multiple services deployed to AWS EKS on different paths.
+
+type: application
+
+version: 0.0.1
+
+appVersion: 1.0.0
